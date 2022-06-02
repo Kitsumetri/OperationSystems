@@ -29,12 +29,12 @@ b)
 3. `SPHardwareDataType | grep "Cores"`, `sysctl -a | grep "machdep.cpu.core_count"`, `sysctl -a | grep "machdep.cpu.thread_count"`
 4. `sudo sysctl -a | grep "cachesize"`
    
-
+----
 ### RAM
 #### 2)
 - RAM - оперативная память, используемая компьютером во время работы
 - SWAP - процесс выделения виртуальной памяти компьютера, который позволяет расширить RAM
-
+----
 #### 3)
 * Linux:
 
@@ -43,8 +43,10 @@ b)
 
 `sysctl hw.ncpu` or `system_profiler SPHardwareDataType | grep "Memory:"`
 
-#### 4)
 
+----
+#### 4)
+----
 
 #### 5)
 * Linux:
@@ -53,18 +55,24 @@ b)
 * macOS:
 
  `/usr/sbin/system_profiler SPHardwareDataType`
+ 
+ ----
  ### Disk Usage
  #### 6)
  * Linux and macOS:
  `df -h`
  
+ ----
  #### 7)
  * Linux:
  
  `du -h $home`or `du -h /home`
  
  * macOS:
+ 
  `du -sh *`
+ 
+ ----
  #### 8)
  * Linux:
  
