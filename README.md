@@ -154,6 +154,8 @@ Check `swap.sh` in the folder.
 
 * macOS:
 
+`sudo softwareupdate -l`
+
 ----
 #### 17)
 * Linux:
