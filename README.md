@@ -162,10 +162,6 @@ Check `swap.sh` in the folder.
 #### 17)
 ----
 #### 18)
-* Linux:
-
-* macOS:
-
 ----
 #### 19)
 * Linux:
@@ -180,5 +176,105 @@ Check `Terminal -> Settings`
 #### 20)
 ----
 ## *Grep*
-### 21)
+#### 21)
+
 Grep - утилита, с помощью которой можно искать паттерны в текстовых файлах.
+
+a) `grep -w "123" example.txt`
+
+b) `grep '123' example.txt example_1.txt`
+
+c) `grep -E -w -i "123|321|abc" example.txt example_1.txt`
+
+----
+#### 22)
+
+`-i` or `--ignore-case`
+
+----
+#### 23)
+
+`grep -w "123" example.txt`
+
+----
+#### 24)
+
+`-v` or `--invert-match`
+`grep -v -i "abcd" example_1.txt
+
+----
+#### 25)
+
+`ls /proc/ | grep info`
+
+----
+#### 26)
+
+`grep -in "123" example.txt`
+
+----
+#### 27)
+```
+? - zero OR one matchings
+. - any symbol
+* - zero and more matchings
+| - union of regex-s
++ - one or more matchings
+{n,m} - previous symbol is matched from n to m times
+{n} - EXACTLY n times
+{n,} - n and more times
+{,m} - no more than m times
+^ - matching at the begin of string
+$ - matching at the end of string
+\ - make the next symbol a literal
+[^...] - negation all symbols inside
+[] - set of symbols at this position
+[[:upper:]] - classified set of symbols
+[A-Z] - set of literals from A to Z? - zero OR one matchings
+. - any symbol
+* - zero and more matchings
+| - union of regex-s
++ - one or more matchings
+{n,m} - previous symbol is matched from n to m times
+{n} - EXACTLY n times
+{n,} - n and more times
+{,m} - no more than m times
+^ - matching at the begin of string
+$ - matching at the end of string
+\ - make the next symbol a literal
+[^...] - negation all symbols inside
+[] - set of symbols at this position
+[[:upper:]] - classified set of symbols
+[A-Z] - set of literals from A to Z
+```
+----
+#### 28)
+----
+#### 29)
+----
+#### 30)
+----
+#### 31)
+
+`top | grep nikolai`
+
+----
+### *Find*
+#### 32)
+
+`find /Users/nikolai -type f -name "example.txt"`
+
+----
+#### 33)
+----
+#### 34)
+----
+#### 35)
+----
+#### 36)
+----
+#### 37)
+----
+#### 38)
+
+----
