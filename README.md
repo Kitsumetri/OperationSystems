@@ -304,3 +304,20 @@ $ - matching at the end of string
 `find / -size +10M -size -15M`
 
 ----
+#### 42)
+
+`find /Users/nikolai/example -type f -name "example.txt" -exec cp "{}" /Users/nikolai/tmp  \;`
+
+----
+#### 43)
+----
+### Bash
+#### 44)
+----
+#### 45)
+
+Check `hello_world.sh`
+
+----
+#### 46)
+----
