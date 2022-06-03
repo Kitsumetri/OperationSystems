@@ -144,7 +144,7 @@ Check `swap.sh` in the folder.
 
 ----
 #### 15)
-* Linux:
+* Linux and macOS:
 
 `PATH=$PATH:$HOME/.bin:$HOME/bin`
 
@@ -200,7 +200,7 @@ c) `grep -E -w -i "123|321|abc" example.txt example_1.txt`
 #### 24)
 
 `-v` or `--invert-match`
-`grep -v -i "abcd" example_1.txt
+`grep -v -i "abcd" example_1.txt`
 
 ----
 #### 25)
@@ -266,15 +266,41 @@ $ - matching at the end of string
 
 ----
 #### 33)
+
+`find . -name '*.txt'` - find all .txt files in the folder
+
 ----
 #### 34)
+
+`-iname`
+
 ----
 #### 35)
+* Linux:
+
+`find $HOME -perm 777`
+
+* macOS:
+
+`find . -perm 777`
+
 ----
 #### 36)
 ----
 #### 37)
+
+`find . -empty`
+
 ----
 #### 38)
+----
+#### 39)
+----
+#### 40)
+
+----
+#### 41)
+
+`find / -size +10M -size -15M`
 
 ----
