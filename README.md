@@ -73,7 +73,7 @@ Check `swap.sh` in the folder.
  #### 7)
  * Linux:
  
- `du -h $home`or `du -h /home`
+ `du -h $home`
  
  * macOS:
  
@@ -116,7 +116,7 @@ Check `swap.sh` in the folder.
 #### 11)
 * Linux:
 
-`ifconfig -a | grep ether | gawk '{print $2}`
+`ifconfig -a | grep ether | gawk '{print $2}'`
 
 * macOs:
 
@@ -152,16 +152,14 @@ Check `swap.sh` in the folder.
 #### 16)
 * Linux:
 
+`sudo apt-get update` and then `sudo apt-get upgrade`
+
 * macOS:
 
 `sudo softwareupdate -l`
 
 ----
 #### 17)
-* Linux:
-
-* macOS:
-
 ----
 #### 18)
 * Linux:
@@ -172,12 +170,15 @@ Check `swap.sh` in the folder.
 #### 19)
 * Linux:
 
+Check `Preference` in the terminal window for the customization
+
 * macOS:
+
+Check `Terminal -> Settings`
 
 ----
 #### 20)
-* Linux:
-
-* macOS:
-
 ----
+## *Grep*
+### 21)
+Grep - утилита, с помощью которой можно искать паттерны в текстовых файлах.
