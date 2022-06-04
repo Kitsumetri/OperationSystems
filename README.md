@@ -49,9 +49,6 @@ b)
 
 ----
 #### 4)
-
-Check `swap.sh` in the folder.
-
 ----
 #### 5)
 * Linux:
