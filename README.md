@@ -1,9 +1,11 @@
 # OperationSystems
 **University's task to learn Linux (especially Ubuntu distribution) and macOS**
 
+**Still work in progress**
+
 [Task list](https://docs.google.com/document/d/1q8FmNPGTf_-FJ7Olo0Qw9HKRtk_yg73o/edit)
 
-P.S. Sometimes I could add command for macOS too cuz I'm using it as a main OS.
+P.S. Sometimes I could add command for macOS too cuz I'm using it as a main OS and this information will be useful for my future purposes.
 
 # Solutions:
 ## System info
